@@ -1,13 +1,17 @@
-#img{
+#img {
     max-width: 150px;
 }
-#font{
+
+#font {
     color: #DAB254;
 }
-#slot{
-   width: 100%;
+
+#slot {
+    width: 109px;
+    height: ;
 }
-#footter{
+
+#footter {
     width: 100%;
 }
 
@@ -15,29 +19,66 @@
     font-size: 2.5rem;
     font-weight: 600;
     font-family: "DB Adman", Sans-serif;
-    width:100%;
+    width: 100%;
     border-radius: 50%;
     color: #ffffff;
     vertical-align: middle;
     display: block;
     text-align: left;
-  }
-  .counterbighome:before {
-      content: "฿ ";
-      color: #dab254;
-  }
-  @media screen and (max-width: 768px) {
-  .counterbighome {
-    display: block;
-    font-size:1.7rem;
-    padding-top: 0px;
-    font-weight: 700;
-    font-family: "DB Adman", Sans-serif;
-    width:100%;
-    border-radius: 50%;
-    color: #6D6E71;
-    vertical-align: middle;
-    text-align: left;
-  }
-  }
-  
+}
+
+.counterbighome:before {
+    content: "฿ ";
+    color: #dab254;
+}
+
+@media screen and (max-width: 768px) {
+    .counterbighome {
+        display: block;
+        font-size: 1.7rem;
+        padding-top: 0px;
+        font-weight: 700;
+        font-family: "DB Adman", Sans-serif;
+        width: 100%;
+        border-radius: 50%;
+        color: #6D6E71;
+        vertical-align: middle;
+        text-align: left;
+    }
+}
+
+#button {
+    border: 2px solid rgb(240, 191, 76);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#button2 {
+    border: 2px solid #f0dd8e;
+    border-radius: 10px;
+    background-color: rgb(240, 191, 76);
+    background: rgb(240, 191, 76);
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #e3bb1c, #e8c742);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e3bb1c, #e8c742);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e3bb1c, #e8c742);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e3bb1c, #e8c742);
+    /* Standard syntax */
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+
+
+
+}
