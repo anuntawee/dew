@@ -1,0 +1,43 @@
+#img{
+    max-width: 150px;
+}
+#font{
+    color: #DAB254;
+}
+#slot{
+   width: 100%;
+}
+#footter{
+    width: 100%;
+}
+
+.counterbighome {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: "DB Adman", Sans-serif;
+    width:100%;
+    border-radius: 50%;
+    color: #ffffff;
+    vertical-align: middle;
+    display: block;
+    text-align: left;
+  }
+  .counterbighome:before {
+      content: "฿ ";
+      color: #dab254;
+  }
+  @media screen and (max-width: 768px) {
+  .counterbighome {
+    display: block;
+    font-size:1.7rem;
+    padding-top: 0px;
+    font-weight: 700;
+    font-family: "DB Adman", Sans-serif;
+    width:100%;
+    border-radius: 50%;
+    color: #6D6E71;
+    vertical-align: middle;
+    text-align: left;
+  }
+  }
+  
