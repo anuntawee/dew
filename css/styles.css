@@ -11444,10 +11444,14 @@ html {
 .masthead .masthead-avatar {
   width: 15rem;
 }
+.masthead .banner{
+  padding-top: var(--bs-gutter-x, 1rem);
+}
+
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: calc(6rem + 74px);
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
@@ -11475,7 +11479,7 @@ html {
   background-color: #ff4500;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 0.4;
+  opacity: ;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
