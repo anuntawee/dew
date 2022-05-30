@@ -11445,7 +11445,7 @@ html {
   width: 15rem;
 }
 .masthead .banner{
-  padding-top: var(--bs-gutter-x, 1rem);
+  padding-top: var(--bs-gutter-x, 1.3rem);
 }
 
 
