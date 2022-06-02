@@ -12434,6 +12434,7 @@ html {
 
 .masthead .banner {
   padding-top: var(--bs-gutter-x, 1.3rem);
+  background-image: url(../assets/img/BG-02.jpg);
 }
 
 
@@ -12462,7 +12463,7 @@ html {
   margin-bottom: 0.3rem;
 }
 
-.bg-footer {
+.bg-background2 {
   background-image: url('..//assets/img/BG-02.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -12539,4 +12540,28 @@ html {
   border: 2px solid;
   border-radius: 5px;
   border-color: black;
+}
+.wp-block-table {
+  margin: 0 0 1em;
+  overflow-x: auto;
+  display: block;
+  text-align: left;
+  color: #FFFFFF;
+  font-family: "Prompt", Sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.6em;
+  box-sizing: border-box;
+}
+.wp-block {
+  margin: 0 0 1em;
+  overflow-x: auto;
+  display: block;
+  text-align: left;
+  color: #F7B402;
+  font-family: "Prompt", Sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.6em;
+  box-sizing: border-box;
 }
