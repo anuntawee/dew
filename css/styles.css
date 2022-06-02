@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;700&family=Prompt:ital,wght@1,500&display=swap');
 
 /*!
 * Start Bootstrap - Freelancer v7.0.6 (https://startbootstrap.com/theme/freelancer)
@@ -116,7 +117,8 @@ h1,
 .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -12533,8 +12535,8 @@ html {
   background-color: #1a252f;
 }
 
-.border{
-  border: 2px solid ;
+.border {
+  border: 2px solid;
   border-radius: 5px;
   border-color: black;
 }
