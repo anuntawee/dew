@@ -493,6 +493,9 @@ progress {
   font-size: 1.25rem;
   font-weight: 300;
 }
+#bg-background{
+  background-image: url(assets/img/BG-02.jpg);
+}
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
