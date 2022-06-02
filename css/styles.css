@@ -12459,8 +12459,8 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-  margin-top: 0.3rem;
-  margin-bottom: 0.3rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
 }
 
 .bg-background2 {
@@ -12537,8 +12537,8 @@ html {
 }
 
 .border {
-  border: 2px solid;
-  border-radius: 5px;
+  border: 0.1rem solid;
+  border-radius: 3px;
   border-color: black;
 }
 .wp-block-table {
