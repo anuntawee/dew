@@ -12553,6 +12553,11 @@ html {
   line-height: 1.6em;
   box-sizing: border-box;
 }
+.wp-block-table .table th,td{
+    border-collapse: collapse;
+    padding: 15px;
+    border-bottom: 2px solid #ddd;
+}
 .wp-block {
   margin: 0 0 1em;
   overflow-x: auto;
