@@ -217,6 +217,7 @@ small, .small {
 mark, .mark {
   padding: 0.2em;
   background-color: #fcf8e3;
+  
 }
 
 sub,
@@ -7888,8 +7889,8 @@ textarea.form-control-lg {
 
 .bg-gradient {
   background-image: var(--bs-gradient) !important;
+  
 }
-
 .user-select-all {
   -webkit-user-select: all !important;
      -moz-user-select: all !important;
@@ -11462,8 +11463,13 @@ html {
     font-size: 1.5rem;
   }
 }
+.portfolio  {
+  background-image: url("assets/img/BG01-Red.jpg");
+}
+
 .portfolio .portfolio-item {
   margin-top: 0.5rem;
+  
 }
 .portfolio .portfolio-item {
   cursor: pointer;
