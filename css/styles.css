@@ -12456,8 +12456,8 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 
 .bg-footer {
@@ -12531,4 +12531,10 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.border{
+  border: 2px solid ;
+  border-radius: 5px;
+  border-color: black;
 }
