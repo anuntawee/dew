@@ -75,7 +75,7 @@
         doc_height = (window.innerHeight && snowdistance == "windowheight") ? window.innerHeight : (ie4up && snowdistance == "windowheight") ? iecompattest().clientHeight : (ie4up && !window.opera && snowdistance == "pageheight") ? iecompattest().scrollHeight : iecompattest().offsetHeight;
         for (i = 0; i < no; ++i) {
             yp[i] += sty[i];
-            if (yp[i] > doc_height - -1000) {
+            if (yp[i] > doc_height - -2000) {
                 xp[i] = Math.random() * (doc_width - am[i] - 30);
                 yp[i] = 0;
                 stx[i] = 0.02 + Math.random() / 10;
