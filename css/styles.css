@@ -12459,15 +12459,15 @@ html {
 }
 
 .masthead .banner {
-  padding-top: var(--bs-gutter-x, 1.3rem);
+  padding-top: var(--bs-gutter-x, 1.5rem);
   background-image: url(../assets/img/BG-02.jpg);
 }
 
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 74px);
-    padding-bottom: 6rem;
+    padding-top: calc(4rem + 74px);
+    padding-bottom: 1rem;
   }
 
   .masthead .masthead-heading {
