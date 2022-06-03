@@ -3286,6 +3286,30 @@ fieldset:disabled .btn {
   border-color: #15967d;
 }
 
+.btn-login {
+  color: #fff;
+  width: 100%;
+  clear: both;
+  line-height: 0;
+  height: 0;
+  width: 100px;
+  height: 100%;
+  float: center;
+  text-align: right;
+
+}
+.btn-login:hover {
+ 
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 80%;
+  transition: opacity .2s;
+ 
+}
+
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
   color: #fff;
@@ -4634,6 +4658,8 @@ fieldset:disabled .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  float: center;
+  text-align: center;
 }
 
 .navbar-nav .nav-link {
@@ -12373,14 +12399,14 @@ html {
 
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background: #dc3545;
   }
 
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #dc3545;
   }
 
   #mainNav.navbar-shrink {
@@ -12414,7 +12440,7 @@ html {
 }
 
 .masthead {
-  padding-top: calc(.5rem + 74px);
+  padding-top: calc(.2rem + 74px);
   padding-bottom: 1rem;
   margin-bottom: -1rem;
 }
@@ -12537,10 +12563,11 @@ html {
 }
 
 .border {
-  border: 0.1rem solid;
+  border: 0.5rem solid;
   border-radius: 3px;
   border-color: black;
 }
+
 .wp-block-table {
   margin: 0 0 1em;
   overflow-x: auto;
@@ -12553,11 +12580,14 @@ html {
   line-height: 1.6em;
   box-sizing: border-box;
 }
-.wp-block-table .table th,td{
-    border-collapse: collapse;
-    padding: 15px;
-    border-bottom: 2px solid #ddd;
+
+.wp-block-table .table th,
+td {
+  border-collapse: collapse;
+  padding: 15px;
+  border-bottom: 2px solid #ddd;
 }
+
 .wp-block {
   margin: 0 0 1em;
   overflow-x: auto;
