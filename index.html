@@ -199,10 +199,11 @@
 
                         var timeInSecs;
                         var ticker;
+                        var content = '฿';
 
                         function startTimer(secs) {
                             timeInSecs = parseInt(secs) + 1;
-                            ticker = setInterval("tick()", 500);   // every second
+                            ticker = setInterval("tick()", 100);   // every second
                         }
 
                         function tick() {
@@ -215,20 +216,18 @@
                                 // startTimer(60);  // remove forward slashes in front of startTimer to repeat if required
                             }
 
-                            document.getElementById("countdown").innerHTML = secs;
+                            document.getElementById("countdown").innerHTML = content+secs;
                         }
 
-                        startTimer(10000);  // 60 seconds
+                        startTimer(1348790);  // 60 seconds
 
                     </script>
-                    <div class="text-center text-light mb-0 JACKPORTT">
-                        <h1 class="text-uppercase JACKPORT">JACKPORT</h1>
-                        <h2 id="countdown" class="JACKPORT"></h2>
-
-                    </div>
                     <!-- Portfolio Grid Items-->
                     <div class="container">
-                        <br>
+                        <div class="col-12 text-center me-auto">
+                            <img src="./assets/img/jackpot.png" alt="" srcset="" class=" h-50 w-50">
+                           p <h2 id="countdown" class="JACKPOT "> </h2>
+                        </div>
                         <div class="container">
                             <!-- About Section Content-->
                             <div class="row text-center">
@@ -236,25 +235,32 @@
                                     <p class="lead"> <img src="assets/img/010.png" alt="" id="img" width="100%"></p>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-6 me-auto">
-                                    <p class="lead"> <img src="assets/img/012.png" alt="" id="img" width="100%"> </p>
+                                    <p class="lead"> <img src="assets/img/012.png" alt="" id="img" width="100%">
+                                    </p>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-6 me-auto">
-                                    <p class="lead"> <img src="assets/img/013.png" alt="" id="img" width="100%"> </p>
+                                    <p class="lead"> <img src="assets/img/013.png" alt="" id="img" width="100%">
+                                    </p>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-6 me-auto">
-                                    <p class="lead"> <img src="assets/img/014.png" alt="" id="img" width="100%"> </p>
+                                    <p class="lead"> <img src="assets/img/014.png" alt="" id="img" width="100%">
+                                    </p>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-6 me-auto">
-                                    <p class="lead"> <img src="assets/img/015.png" alt="" id="img" width="100%"> </p>
+                                    <p class="lead"> <img src="assets/img/015.png" alt="" id="img" width="100%">
+                                    </p>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-6 me-auto">
-                                    <p class="lead"> <img src="assets/img/016.png" alt="" id="img" width="100%"> </p>
+                                    <p class="lead"> <img src="assets/img/016.png" alt="" id="img" width="100%">
+                                    </p>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-6 me-auto">
-                                    <p class="lead"> <img src="assets/img/017.png" alt="" id="img" width="100%"> </p>
+                                    <p class="lead"> <img src="assets/img/017.png" alt="" id="img" width="100%">
+                                    </p>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-6 me-auto">
-                                    <p class="lead"> <img src="assets/img/018.png" alt="" id="img" width="100%"> </p>
+                                    <p class="lead"> <img src="assets/img/018.png" alt="" id="img" width="100%">
+                                    </p>
                                 </div>
                             </div>
                         </div>
