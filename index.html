@@ -22,7 +22,6 @@
     <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
 </head>
 
-
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg bg-black text-uppercase fixed-top" id="mainNav">
@@ -195,8 +194,38 @@
             <div class="container">
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
-                    <h1 class="text-center text-uppercase text-light mb-0">สล็อตแตกง่าย แตกบ่อย ลุ้นเเจ็คพอท</h1>
+                    <script type="text/javascript">
+                        /*author Philip M. 2010*/
 
+                        var timeInSecs;
+                        var ticker;
+
+                        function startTimer(secs) {
+                            timeInSecs = parseInt(secs) + 1;
+                            ticker = setInterval("tick()", 500);   // every second
+                        }
+
+                        function tick() {
+                            var secs = timeInSecs;
+                            if (secs > 0) {
+                                timeInSecs++;
+                            }
+                            else {
+                                clearInterval(ticker); // stop counting at zero
+                                // startTimer(60);  // remove forward slashes in front of startTimer to repeat if required
+                            }
+
+                            document.getElementById("countdown").innerHTML = secs;
+                        }
+
+                        startTimer(10000);  // 60 seconds
+
+                    </script>
+                    <div class="text-center text-light mb-0 JACKPORTT">
+                        <h1 class="text-uppercase JACKPORT">JACKPORT</h1>
+                        <h2 id="countdown" class="JACKPORT"></h2>
+
+                    </div>
                     <!-- Portfolio Grid Items-->
                     <div class="container">
                         <br>
